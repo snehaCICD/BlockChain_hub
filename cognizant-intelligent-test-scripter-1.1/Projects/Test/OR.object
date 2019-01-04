@@ -1,0 +1,134 @@
+<Root type="OR" ref="Test">
+  <Page title="Cognizant Intelligent Test Scripter" ref="Cognizant">
+    <ObjectGroup ref="User ID :">
+      <Object frame="" ref="User ID :">
+        <Property value="userLogin" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//input[@placeholder='Cognizant Network ID']" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/div/div/div[2]/form/div/input)[1]" ref="xpath" pref="5"/>
+        <Property value="form-control" ref="class" pref="6"/>
+        <Property value="input[name=&quot;userLogin&quot;]" ref="css" pref="7"/>
+        <Property value="text" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Password :">
+      <Object frame="" ref="Password :">
+        <Property value="userPassword" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//input[@placeholder='Password']" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div/div/div[2]/form/div[2]/input" ref="xpath" pref="5"/>
+        <Property value="form-control" ref="class" pref="6"/>
+        <Property value="input[name=&quot;userPassword&quot;]" ref="css" pref="7"/>
+        <Property value="password" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Login">
+      <Object frame="" ref="Login">
+        <Property value="submit" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//button[@value='submit']" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div/div/div[2]/form/button" ref="xpath" pref="5"/>
+        <Property value="btn btn-primary btn-block login" ref="class" pref="6"/>
+        <Property value="button[name=&quot;submit&quot;]" ref="css" pref="7"/>
+        <Property value="submit" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Invalid username and password">
+      <Object frame="" ref="Invalid username and password">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="errmsg" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//*[normalize-space(text())='Invalid username and password']" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div/div/div[2]/form/p" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="#errmsg" ref="css" pref="7"/>
+        <Property value="p" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="google - Google Search" ref="google">
+    <ObjectGroup ref="Search">
+      <Object frame="" ref="Search">
+        <Property value="q" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//input[@title='Search']" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[4]/form/div[2]/div/div[2]/div/div/input" ref="xpath" pref="5"/>
+        <Property value="gLFyf gsfi" ref="class" pref="6"/>
+        <Property value="div.a4bIc > input[name=&quot;q&quot;]" ref="css" pref="7"/>
+        <Property value="text" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Google">
+      <Object frame="" ref="Google">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="(//*[normalize-space(text())='Google'])[1]" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/div[8]/div[3]/div[10]/div/div[2]/div/div[2]/div[2]/div/div/div/div/div/div/div/div/div/a/h3)[1]" ref="xpath" pref="5"/>
+        <Property value="LC20lb" ref="class" pref="6"/>
+        <Property value="div.g > div > div > div.rc > div.r > a > h3.LC20lb" ref="css" pref="7"/>
+        <Property value="h3" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="Google" ref="Google1">
+    <ObjectGroup ref="Search">
+      <Object frame="" ref="Search">
+        <Property value="q" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//input[@title='Search']" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div/div[4]/form/div[2]/div/div/div/div/input" ref="xpath" pref="5"/>
+        <Property value="gLFyf gsfi" ref="class" pref="6"/>
+        <Property value="input[name=&quot;q&quot;]" ref="css" pref="7"/>
+        <Property value="text" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="selenium - Google Search" ref="selenium">
+    <ObjectGroup ref="Selenium - Web Browser Automat">
+      <Object frame="" ref="Selenium - Web Browser Automat">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//*[normalize-space(text())='Selenium - Web Browser Automation']" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/div[8]/div[3]/div[10]/div/div[2]/div/div[2]/div[2]/div/div/div/div/div/div/div/div/a/h3" ref="xpath" pref="5"/>
+        <Property value="LC20lb" ref="class" pref="6"/>
+        <Property value="div.bkWMgd > div.g > div > div.rc > div.r > a > h3.LC20lb" ref="css" pref="7"/>
+        <Property value="h3" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="Selenium - Web Browser Automation" ref="Selenium1">
+    <ObjectGroup ref="Download">
+      <Object frame="" ref="Download">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="Download" ref="link_text" pref="3"/>
+        <Property value="//a[@title='Get Selenium']" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/div[3]/div/ul/li[4]/a)[1]" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="a[title=&quot;Get Selenium&quot;]" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+  <Page title="Downloads" ref="Downloads">
+    <ObjectGroup ref="Documentation">
+      <Object frame="" ref="Documentation">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="Documentation" ref="link_text" pref="3"/>
+        <Property value="//a[@title='Technical references and guides']" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/div[3]/div/ul/li[3]/a)[1]" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="a[title=&quot;Technical references and guides&quot;]" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+</Root>

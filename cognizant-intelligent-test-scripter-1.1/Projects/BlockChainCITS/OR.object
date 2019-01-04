@@ -1,0 +1,136 @@
+<Root type="OR" ref="BlockChainCITS">
+  <Page title="ING Marketplace" ref="ING">
+    <ObjectGroup ref="Product Name">
+      <Object frame="" ref="Product Name">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="name" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//input[@type='text']" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/app-root/div/div/div/app-sell-products/div/div/div/app-upload-products/div/div[2]/div/form/div/div/input)[1]" ref="xpath" pref="5"/>
+        <Property value="form-control" ref="class" pref="6"/>
+        <Property value="#name" ref="css" pref="7"/>
+        <Property value="text" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Amount">
+      <Object frame="" ref="Amount">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="amount" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//input[@type='number']" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/app-root/div/div/div/app-sell-products/div/div/div/app-upload-products/div/div[2]/div/form/div/div[2]/input" ref="xpath" pref="5"/>
+        <Property value="form-control" ref="class" pref="6"/>
+        <Property value="#amount" ref="css" pref="7"/>
+        <Property value="number" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Description">
+      <Object frame="" ref="Description">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="description" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//input[@type='text-area']" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/app-root/div/div/div/app-sell-products/div/div/div/app-upload-products/div/div[2]/div/form/div[2]/div/div/input" ref="xpath" pref="5"/>
+        <Property value="form-control" ref="class" pref="6"/>
+        <Property value="#description" ref="css" pref="7"/>
+        <Property value="text" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Add">
+      <Object frame="" ref="Add">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="(//button[@type='submit'])[2]" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/app-root/div/div/div/app-sell-products/div/div/div/app-upload-products/div/div[2]/div/form/div[4]/div/button)[1]" ref="xpath" pref="5"/>
+        <Property value="btn btn-success" ref="class" pref="6"/>
+        <Property value="button.btn.btn-success" ref="css" pref="7"/>
+        <Property value="submit" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="nav-link dropdown-toggle">
+      <Object frame="" ref="nav-link dropdown-toggle">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="(//a[contains(@href, '#')])[5]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/app-root/app-sticky-header/app-header/nav/div/ul/li[4]/a" ref="xpath" pref="5"/>
+        <Property value="nav-link dropdown-toggle" ref="class" pref="6"/>
+        <Property value="a.nav-link.dropdown-toggle" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Dashboard">
+      <Object frame="" ref="Dashboard">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="Dashboard" ref="link_text" pref="3"/>
+        <Property value="//a[contains(normalize-space(text()),'Dashboard')]" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/app-root/app-sticky-header/app-header/nav/div/ul/li[4]/div/a)[1]" ref="xpath" pref="5"/>
+        <Property value="dropdown-item" ref="class" pref="6"/>
+        <Property value="html > body > app-root > app-sticky-header.ng-tns-c1-0 > app-header.ng-star-inserted > nav.navbar.navbar-expand-lg navbar-light bg-light > #navbarSupportedContent > ul.navbar-nav > li.nav-item.dropdown show > div.dropdown-menu.show > a.dropdown-item" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="fa fa-user-circle fa-2x">
+      <Object frame="" ref="fa fa-user-circle fa-2x">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//i" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/app-root/app-sticky-header/app-header/nav/div/ul/li[4]/a/i" ref="xpath" pref="5"/>
+        <Property value="fa fa-user-circle fa-2x" ref="class" pref="6"/>
+        <Property value="html > body > app-root > app-sticky-header.ng-tns-c1-0 > app-header.ng-star-inserted > nav.navbar.navbar-expand-lg navbar-light bg-light > #navbarSupportedContent > ul.navbar-nav > li.nav-item.dropdown show > a.nav-link.dropdown-toggle > i.fa.fa-user-circle fa-2x" ref="css" pref="7"/>
+        <Property value="i" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Home">
+      <Object frame="" ref="Home">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//*[normalize-space(text())='Home']" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/app-root/app-sticky-header/app-header/nav/div/ul/li/a/h5)[1]" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="html > body > app-root > app-sticky-header.ng-tns-c1-0 > app-header.ng-star-inserted > nav.navbar.navbar-expand-lg navbar-light bg-light > #navbarSupportedContent > ul.navbar-nav > li.nav-item > a.nav-link > h5" ref="css" pref="7"/>
+        <Property value="h5" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="View Transactions">
+      <Object frame="" ref="View Transactions">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//*[normalize-space(text())='View Transactions']" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/app-root/app-sticky-header/app-header/nav/div/ul/li[3]/a/h5" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="html > body > app-root > app-sticky-header.ng-tns-c1-0 > app-header.ng-star-inserted > nav.navbar.navbar-expand-lg navbar-light bg-light > #navbarSupportedContent > ul.navbar-nav > li.nav-item > a.nav-link > h5" ref="css" pref="7"/>
+        <Property value="h5" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Sell Product">
+      <Object frame="" ref="Sell Product">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//*[normalize-space(text())='Sell Product']" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/app-root/app-sticky-header/app-header/nav/div/ul/li[2]/a/h5" ref="xpath" pref="5"/>
+        <Property value="" ref="class" pref="6"/>
+        <Property value="html > body > app-root > app-sticky-header.ng-tns-c1-0 > app-header.ng-star-inserted > nav.navbar.navbar-expand-lg navbar-light bg-light > #navbarSupportedContent > ul.navbar-nav > li.nav-item > a.nav-link > h5" ref="css" pref="7"/>
+        <Property value="h5" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Logout">
+      <Object frame="" ref="Logout">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="Logout" ref="link_text" pref="3"/>
+        <Property value="//a[contains(normalize-space(text()),'Logout')]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/app-root/app-sticky-header/app-header/nav/div/ul/li[4]/div/a[2]" ref="xpath" pref="5"/>
+        <Property value="dropdown-item" ref="class" pref="6"/>
+        <Property value="html > body > app-root > app-sticky-header.ng-tns-c1-0 > app-header.ng-star-inserted > nav.navbar.navbar-expand-lg navbar-light bg-light > #navbarSupportedContent > ul.navbar-nav > li.nav-item.dropdown show > div.dropdown-menu.show > a.dropdown-item" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
+</Root>

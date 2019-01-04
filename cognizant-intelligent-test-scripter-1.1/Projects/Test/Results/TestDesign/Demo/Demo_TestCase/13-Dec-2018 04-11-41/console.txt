@@ -1,0 +1,93 @@
+Run Information
+========================
+cognizant.intelligent.test.scripter.engine : 1.1
+java.runtime.name    : Java(TM) SE Runtime Environment
+java.version         : 1.8.0_191
+java.home            : C:\Program Files\Java\jre1.8.0_191
+os.name              : Windows Server 2012 R2
+os.arch              : amd64
+os.version           : 6.3
+file.encoding        : UTF-8
+========================
+Run Started on Thu Dec 13 04:11:42 PST 2018
+Loading Browser Profile
+Loading RunManager
+[Scenario:Demo] [TestCase: Demo_TestCase] [Description: Test Run] [Browser: Chrome] [BrowserVersion: default] [Platform: ANY][ExistingBrowser: false]
+Initializing Report
+[main] WARN com.cognizant.cognizantits.engine.core.TMIntegration - TM integration disabled for testcases running via design mode
+ApiLink not available!!
+Shutting Down Thread as there is no need for SelectiveThreading
+Running Iteration 1
+Launching Chrome
+Launching Local Driver
+Starting ChromeDriver 2.45.615291 (ec3682e3c9061c10f26ea9e5cdcf3c53f3f74387) on port 31291
+Only local connections are allowed.
+2018-12-13 04:11:47:12S -0800 [INFO] org.openqa.selenium.remote.ProtocolHandshake createSession:Detected dialect: OSS
+Chrome Launched
+Step:1   | Object: Browser | Action: Open | Input: @https://spritz.cognizant.com/login.php | Conditon:  | @13-Dec-2018 04:11:47.047
+[DONE]   | Opened Url: https://spritz.cognizant.com/login.php
+
+===================================================================================================
+
+Step:2   | Object: User ID : | Action: Click | Input:  | Conditon:  | @13-Dec-2018 04:11:52.052
+Using @name [userLogin], Object 'User ID :' Found in 69 ms
+[DONE]   | Clicking on User ID :
+
+===================================================================================================
+
+Step:3   | Object: User ID : | Action: Set | Input: @854785 | Conditon:  | @13-Dec-2018 04:11:52.052
+Using @name [userLogin], Object 'User ID :' Found in 16 ms
+[DONE]   | Entered Text '854785' on 'User ID :'
+
+===================================================================================================
+
+Step:4   | Object: Password : | Action: Click | Input:  | Conditon:  | @13-Dec-2018 04:11:52.052
+Using @name [userPassword], Object 'Password :' Found in 30 ms
+[DONE]   | Clicking on Password :
+
+===================================================================================================
+
+Step:5   | Object: Password : | Action: setEncrypted | Input: @Z2Z5 Enc | Conditon:  | @13-Dec-2018 04:11:52.052
+Using @name [userPassword], Object 'Password :' Found in 20 ms
+[DONE]   | Entered Encrypted Text Z2Z5 on Password :
+
+===================================================================================================
+
+Step:6   | Object: Login | Action: Click | Input:  | Conditon:  | @13-Dec-2018 04:11:53.053
+Using @name [submit], Object 'Login' Found in 32 ms
+[DONE]   | Clicking on Login
+
+===================================================================================================
+
+Step:7   | Object: Invalid username and password | Action: assertElementTextEquals | Input: @Invalid username and password | Conditon:  | @13-Dec-2018 04:11:53.053
+Using @id [errmsg], Object 'Invalid username and password' Found in 24 ms
+[PASS]   | Invalid username and password's Text IS Invalid username and password 
+
+===================================================================================================
+
+Step:8   | Object: Invalid username and password | Action: Click | Input:  | Conditon:  | @13-Dec-2018 04:11:57.057
+Using @id [errmsg], Object 'Invalid username and password' Found in 14 ms
+[DONE]   | Clicking on Invalid username and password
+
+===================================================================================================
+
+
+---------------------------------------------------
+Testcase Name        : Demo:Demo_TestCase
+Executed Steps       : 8
+Passed Steps         : 8
+Failed Steps         : 0
+Time Taken           : 00:00:15
+-----------------------------------------------------
+
+Run Finished on Thu Dec 13 04:11:58 PST 2018
+-----------------------------------------------------
+ExecutionDate        : 13-Dec-2018 04-11-41
+Executed TestCases   : 1
+Passed TestCases     : 1
+Failed TestCases     : 0
+Time Taken           : 00:00:16
+ReportPath           : file:///C:\CITS\cognizant-intelligent-test-scripter-1.1-setup\cognizant-intelligent-test-scripter-1.1\Projects\Test\Results\TestDesign\Demo\Demo_TestCase\13-Dec-2018 04-11-41\summary.html
+-----------------------------------------------------
+[main] INFO com.cognizant.cognizantits.engine.support.DesktopApi - Trying to Open - C:\CITS\cognizant-intelligent-test-scripter-1.1-setup\cognizant-intelligent-test-scripter-1.1\Projects\Test\Results\TestDesign\Demo\Demo_TestCase\13-Dec-2018 04-11-41\summary.html
+[main] INFO com.cognizant.cognizantits.engine.support.DesktopApi - Trying to exec: [explorer] [%s] [C:\CITS\cognizant-intelligent-test-scripter-1.1-setup\cognizant-intelligent-test-scripter-1.1\Projects\Test\Results\TestDesign\Demo\Demo_TestCase\13-Dec-2018 04-11-41\summary.html]
