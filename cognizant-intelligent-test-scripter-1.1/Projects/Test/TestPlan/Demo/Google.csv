@@ -1,9 +1,0 @@
-Step,ObjectName,Description,Action,Input,Condition,Reference
-1,Browser,Open the Url [<Data>] in the Browser,Open,@https://www.google.com/search?q=google&oq=goo&aqs=chrome.0.69i59j0j69i57j0l3.4830j0j7&sourceid=chrome&ie=UTF-8,,
-2,Search,Enter the value [<Data>] in the Field [<Object>],Set,@googkl,,google
-3,Google,"Click the [<Object>] ",Click,,,google
-4,Search,"Click the [<Object>] ",Click,,,Google1
-5,Search,Enter the value [<Data>] in the Field [<Object>],Set,@selenium,,Google1
-6,Selenium - Web Browser Automat,"Click the [<Object>] ",Click,,,selenium
-7,Download,"Click the [<Object>] ",Click,,,Selenium1
-8,Documentation,"Click the [<Object>] ",Click,,,Downloads
