@@ -335,3 +335,60 @@ jar:file:/C:/CITS/cognizant-intelligent-test-scripter-1.1-setup/cognizant-intell
 2018-12-28 02:53:44:315 -0800 [Thread-46] [WARN] com.cognizant.cognizantits.engine.core.TMIntegration - TM integration disabled for testcases running via design mode
 2018-12-28 02:53:51:253 -0800 [Thread-46] [INFO] com.cognizant.cognizantits.engine.support.DesktopApi - Trying to Open - C:\CITS\cognizant-intelligent-test-scripter-1.1-setup\cognizant-intelligent-test-scripter-1.1\Projects\BlockChainCITS\Results\TestDesign\NewScenario\LoginApplication\28-Dec-2018 02-53-44\summary.html
 2018-12-28 02:53:51:254 -0800 [Thread-46] [INFO] com.cognizant.cognizantits.engine.support.DesktopApi - Trying to exec: [explorer] [%s] [C:\CITS\cognizant-intelligent-test-scripter-1.1-setup\cognizant-intelligent-test-scripter-1.1\Projects\BlockChainCITS\Results\TestDesign\NewScenario\LoginApplication\28-Dec-2018 02-53-44\summary.html]
+2019-01-04 02:45:18:01S -0800 [INFO] com.cognizant.cognizantits.ide.main.Main main:Launching Cognizant Intelligent Test Scripter IDE
+2019-01-04 02:45:20:01S -0800 [INFO] com.cognizant.cognizantits.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\GIT\BlockChain_hub\cognizant-intelligent-test-scripter-1.1\lib\cognizant-intelligent-test-scripter-engine-1.1.jar
+2019-01-04 02:45:24:01S -0800 [INFO] com.cognizant.cognizantits.engine.drivers.ChromeEmulators load:Loading ChromeEmulators from file
+2019-01-04 02:45:38:01S -0800 [SEVERE] com.cognizant.cognizantits.datalib.component.utils.FileUtils getRecords:File [C:\CITS\cognizant-intelligent-test-scripter-1.1-setup\cognizant-intelligent-test-scripter-1.1\Projects\Test\TestPlan\Demo\NewTestCase.csv] doesn't exist
+2019-01-04 02:45:57:01S -0800 [INFO] com.cognizant.cognizantits.datalib.component.utils.FileUtils renameFile:C:\CITS\cognizant-intelligent-test-scripter-1.1-setup\cognizant-intelligent-test-scripter-1.1\Projects\Test\TestPlan\Demo\NewTestCase.csv Renamed to Blockchain_Login.csv
+2019-01-04 02:45:57:01S -0800 [INFO] com.cognizant.cognizantits.datalib.component.Project refactorTestCase:Refactoring started for TestCase [NewTestCase] to [Blockchain_Login]
+2019-01-04 02:45:57:01S -0800 [INFO] com.cognizant.cognizantits.datalib.component.Project refactorTestCase:Refactoring done for TestCase [NewTestCase] to [Blockchain_Login]
+2019-01-04 02:46:16:391 -0800 [AWT-EventQueue-0] [INFO] org.eclipse.jetty.util.log - Logging initialized @58644ms to org.eclipse.jetty.util.log.Slf4jLog
+jar:file:/C:/GIT/BlockChain_hub/cognizant-intelligent-test-scripter-1.1/lib/cognizant-intelligent-test-scripter-extensionconnect-1.1.jar!/localhost
+2019-01-04 02:46:16:01S -0800 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer startRecord:Launching Server for Record
+2019-01-04 02:46:17:01S -0800 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Starting Server
+2019-01-04 02:46:17:230 -0800 [SocketServer] [INFO] org.eclipse.jetty.server.Server - jetty-9.4.5.v20170502
+2019-01-04 02:46:17:357 -0800 [SocketServer] [INFO] org.eclipse.jetty.server.session - DefaultSessionIdManager workerName=node0
+2019-01-04 02:46:17:357 -0800 [SocketServer] [INFO] org.eclipse.jetty.server.session - No SessionScavenger set, using defaults
+2019-01-04 02:46:17:360 -0800 [SocketServer] [INFO] org.eclipse.jetty.server.session - Scavenging every 660000ms
+2019-01-04 02:46:17:370 -0800 [SocketServer] [INFO] org.eclipse.jetty.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@ddea85a{/,null,AVAILABLE}
+2019-01-04 02:46:17:508 -0800 [SocketServer] [INFO] org.eclipse.jetty.util.ssl.SslContextFactory - x509=X509@1bd81b07(localhost,h=[localhost],w=[]) for SslContextFactory@688c1d6(jar:file:/C:/GIT/BlockChain_hub/cognizant-intelligent-test-scripter-1.1/lib/cognizant-intelligent-test-scripter-extensionconnect-1.1.jar!/localhost,null)
+2019-01-04 02:46:18:326 -0800 [SocketServer] [INFO] org.eclipse.jetty.server.AbstractConnector - Started ServerConnector@b96e1c2{SSL,[ssl, http/1.1]}{0.0.0.0:8887}
+2019-01-04 02:46:18:327 -0800 [SocketServer] [INFO] org.eclipse.jetty.server.Server - Started @60583ms
+2019-01-04 02:46:32:01S -0800 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Browser[null] - Open - @http://localhost:4200/#
+2019-01-04 02:46:35:01S -0800 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : nav-link dropdown-toggle
+2019-01-04 02:46:35:01S -0800 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[nav-link dropdown-toggle] - Click - null
+2019-01-04 02:46:37:01S -0800 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Logout
+2019-01-04 02:46:37:01S -0800 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Logout] - Click - null
+2019-01-04 02:46:39:01S -0800 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Username
+2019-01-04 02:46:39:01S -0800 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Username] - Click - null
+2019-01-04 02:46:47:01S -0800 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Username1
+2019-01-04 02:46:47:01S -0800 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Username1] - Set - @atul@gmail.com
+2019-01-04 02:46:47:01S -0800 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : ING
+Object : Username1
+2019-01-04 02:46:47:01S -0800 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Username1] - Set - @atul@gmail.com
+2019-01-04 02:46:47:01S -0800 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Password
+2019-01-04 02:46:47:01S -0800 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Password] - Click - null
+2019-01-04 02:46:51:01S -0800 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Password1
+2019-01-04 02:46:51:01S -0800 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Password1] - setEncrypted - @12345
+2019-01-04 02:46:51:01S -0800 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : ING
+Object : Password1
+2019-01-04 02:46:51:01S -0800 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Password1] - setEncrypted - @12345
+2019-01-04 02:46:51:01S -0800 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Login
+2019-01-04 02:46:51:01S -0800 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Login] - Click - null
+2019-01-04 02:46:55:01S -0800 [WARNING] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Already Present
+Page : ING
+Object : nav-link dropdown-toggle
+2019-01-04 02:46:55:01S -0800 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[nav-link dropdown-toggle] - Click - null
+2019-01-04 02:46:57:01S -0800 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder saveObjectToPage:Object Added : Logout1
+2019-01-04 02:46:57:01S -0800 [INFO] com.cognizant.cognizantits.ide.main.shr.web.Recorder addAsStep:Object[Logout1] - Click - null
+2019-01-04 02:47:04:065 -0800 [AWT-EventQueue-0] [INFO] org.eclipse.jetty.server.AbstractConnector - Stopped ServerConnector@b96e1c2{SSL,[ssl, http/1.1]}{0.0.0.0:8887}
+2019-01-04 02:47:04:067 -0800 [AWT-EventQueue-0] [INFO] org.eclipse.jetty.server.session - Stopped scavenging
+2019-01-04 02:47:04:070 -0800 [AWT-EventQueue-0] [INFO] org.eclipse.jetty.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@ddea85a{/,null,UNAVAILABLE}
+2019-01-04 02:47:04:01S -0800 [INFO] com.cognizant.cognizantits.extension.server.ExtensionServer$1 run:Server Stopped
+jar:file:/C:/GIT/BlockChain_hub/cognizant-intelligent-test-scripter-1.1/lib/cognizant-intelligent-test-scripter-extensionconnect-1.1.jar!/localhost
+2019-01-04 02:47:18:01S -0800 [INFO] com.cognizant.cognizantits.engine.support.reflect.ClassFinder checkJarFile:Finding Commands in C:\GIT\BlockChain_hub\cognizant-intelligent-test-scripter-1.1\lib\cognizant-intelligent-test-scripter-engine-1.1.jar
+2019-01-04 02:47:18:956 -0800 [Thread-18] [WARN] com.cognizant.cognizantits.engine.core.TMIntegration - TM integration disabled for testcases running via design mode
+2019-01-04 02:47:27:372 -0800 [Thread-18] [INFO] com.cognizant.cognizantits.engine.support.DesktopApi - Trying to Open - C:\CITS\cognizant-intelligent-test-scripter-1.1-setup\cognizant-intelligent-test-scripter-1.1\Projects\Test\Results\TestDesign\Demo\Blockchain_Login\04-Jan-2019 02-47-18\summary.html
+2019-01-04 02:47:27:373 -0800 [Thread-18] [INFO] com.cognizant.cognizantits.engine.support.DesktopApi - Trying to exec: [explorer] [%s] [C:\CITS\cognizant-intelligent-test-scripter-1.1-setup\cognizant-intelligent-test-scripter-1.1\Projects\Test\Results\TestDesign\Demo\Blockchain_Login\04-Jan-2019 02-47-18\summary.html]

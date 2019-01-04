@@ -131,4 +131,102 @@
       </Object>
     </ObjectGroup>
   </Page>
+  <Page title="ING Marketplace" ref="ING">
+    <ObjectGroup ref="nav-link dropdown-toggle">
+      <Object frame="" ref="nav-link dropdown-toggle">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="(//a[contains(@href, '#')])[5]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/app-root/app-sticky-header/app-header/nav/div/ul/li[4]/a" ref="xpath" pref="5"/>
+        <Property value="nav-link dropdown-toggle" ref="class" pref="6"/>
+        <Property value="a.nav-link.dropdown-toggle" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Logout">
+      <Object frame="" ref="Logout">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="Logout" ref="link_text" pref="3"/>
+        <Property value="//a[contains(normalize-space(text()),'Logout')]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/app-root/app-sticky-header/app-header/nav/div/ul/li[4]/div/a[2]" ref="xpath" pref="5"/>
+        <Property value="dropdown-item" ref="class" pref="6"/>
+        <Property value="html > body > app-root > app-sticky-header.ng-tns-c1-0 > app-header.ng-star-inserted > nav.navbar.navbar-expand-lg navbar-light bg-light > #navbarSupportedContent > ul.navbar-nav > li.nav-item.dropdown show > div.dropdown-menu.show > a.dropdown-item" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Username">
+      <Object frame="" ref="Username">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//input[@formcontrolname='username']" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/app-root/div/div/div/app-login/div/div/div/form/div/input)[1]" ref="xpath" pref="5"/>
+        <Property value="form-control ng-untouched ng-pristine ng-invalid" ref="class" pref="6"/>
+        <Property value="html > body > app-root > div.content > div.row > div.col-md-12 > app-login.ng-star-inserted > div.container > div.row > div.col > form.ng-untouched.ng-pristine ng-invalid > div.form-group > input.form-control.ng-untouched ng-pristine ng-invalid" ref="css" pref="7"/>
+        <Property value="text" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Username1">
+      <Object frame="" ref="Username1">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//input[@formcontrolname='username']" ref="relative_xpath" pref="4"/>
+        <Property value="(/html/body/app-root/div/div/div/app-login/div/div/div/form/div/input)[1]" ref="xpath" pref="5"/>
+        <Property value="form-control ng-untouched ng-dirty ng-valid" ref="class" pref="6"/>
+        <Property value="html > body > app-root > div.content > div.row > div.col-md-12 > app-login.ng-star-inserted > div.container > div.row > div.col > form.ng-untouched.ng-invalid ng-dirty > div.form-group > input.form-control.ng-untouched ng-dirty ng-valid" ref="css" pref="7"/>
+        <Property value="text" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Password">
+      <Object frame="" ref="Password">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//input[@formcontrolname='password']" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/app-root/div/div/div/app-login/div/div/div/form/div[2]/input" ref="xpath" pref="5"/>
+        <Property value="form-control ng-untouched ng-pristine ng-invalid" ref="class" pref="6"/>
+        <Property value="html > body > app-root > div.content > div.row > div.col-md-12 > app-login.ng-star-inserted > div.container > div.row > div.col > form.ng-invalid.ng-dirty ng-touched > div.form-group > input.form-control.ng-untouched ng-pristine ng-invalid" ref="css" pref="7"/>
+        <Property value="password" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Password1">
+      <Object frame="" ref="Password1">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//input[@formcontrolname='password']" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/app-root/div/div/div/app-login/div/div/div/form/div[2]/input" ref="xpath" pref="5"/>
+        <Property value="form-control ng-untouched ng-dirty ng-valid" ref="class" pref="6"/>
+        <Property value="html > body > app-root > div.content > div.row > div.col-md-12 > app-login.ng-star-inserted > div.container > div.row > div.col > form.ng-dirty.ng-touched ng-valid > div.form-group > input.form-control.ng-untouched ng-dirty ng-valid" ref="css" pref="7"/>
+        <Property value="password" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Login">
+      <Object frame="" ref="Login">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="" ref="link_text" pref="3"/>
+        <Property value="//*[normalize-space(text())='Login']" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/app-root/div/div/div/app-login/div/div/div/form/div[3]/button" ref="xpath" pref="5"/>
+        <Property value="btn btn-primary" ref="class" pref="6"/>
+        <Property value="button.btn.btn-primary" ref="css" pref="7"/>
+        <Property value="submit" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+    <ObjectGroup ref="Logout1">
+      <Object frame="" ref="Logout1">
+        <Property value="" ref="name" pref="1"/>
+        <Property value="" ref="id" pref="2"/>
+        <Property value="Logout" ref="link_text" pref="3"/>
+        <Property value="//a[contains(normalize-space(text()),'Logout')]" ref="relative_xpath" pref="4"/>
+        <Property value="/html/body/app-root/app-sticky-header/app-header/nav/div/ul/li[4]/div/a[2]" ref="xpath" pref="5"/>
+        <Property value="dropdown-item" ref="class" pref="6"/>
+        <Property value="html > body > app-root > app-sticky-header.ng-tns-c1-0.ng-trigger ng-trigger-toggle > app-header.ng-star-inserted > nav.navbar.navbar-expand-lg navbar-light bg-light > #navbarSupportedContent > ul.navbar-nav > li.nav-item.dropdown show > div.dropdown-menu.show > a.dropdown-item" ref="css" pref="7"/>
+        <Property value="a" ref="type" pref="8"/>
+      </Object>
+    </ObjectGroup>
+  </Page>
 </Root>
